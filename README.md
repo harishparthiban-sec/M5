@@ -9,9 +9,19 @@ Write a C program to convert a 23.65 into 25 using pointer
 4.	Print the modified value.
 
 ## PROGRAM:
+```
 
+#include <stdio.h>
+#include<math.h>
+int main() {
+float m=23.65;
+float *p=&m;
+printf("%.0f",ceil(*p)+1);
+}
+
+```
 ## OUTPUT:
- 	
+ ![alt text](image-3.png)
 
 
 
@@ -45,8 +55,23 @@ Write a C program to calculate the Product of first 12 natural numbers using Rec
 6.	Print the result, indicating it is the product of the first 12 natural numbers.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+int add(int n)
+{
+    
+    if(n==1)
+    return 1;
+    return n*add(n-1);
+}
+int main() {
+   int n=12;
+   int sum=add(n);
+   printf("Product of first 12 natural numbers : %d",sum);
+}
+```
 ## OUTPUT:
-         		
+![alt text](image.png) 		
 ## RESULT:
 
 Thus the program has been executed successfully.
@@ -68,11 +93,42 @@ Write C Program to find Sum of each row of a Matrix
 4.	Print the sum for each row.
 
 ## PROGRAM:
+```
 
+#include <stdio.h>
+
+int main() {
+   int m,n,sum1=0,sum2=0,sum3=0,i,j;
+   scanf("%d%d",&m,&n);
+   int a[m][n];
+   for(i=0;i<m;i++)
+   {
+       for(j=0;j<n;j++)
+       scanf("%d",&a[i][j]);
+   }
+    for(j=0;j<n;j++)
+    {
+        i=0;
+        sum1+=a[i][j];
+    }
+     for(j=0;j<n;j++)
+     {
+         i=1;
+         sum2+=a[i][j];
+     }
+      for(j=0;j<n;j++)
+      {
+          i=2;
+          sum3+=a[i][j];
+      }
+      printf("Sum of 1st row : %d\nSum of 2nd row : %d\nSum of 3rd row : %d\n",sum1,sum2,sum3);
+}
+   
+```
 
 
 ## OUTPUT
-
+![alt text](image-2.png)
 
  
  
@@ -96,10 +152,31 @@ Write C program for the below pyramid string pattern. Enter a string: PROGRAM En
 5.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
 
+int main() {
+  int n;
+  scanf("%d",&n);
+  char str[50];
+  scanf("%s",str);
+  for(int i=0;i<n;i++)
+  {
+      for(int s=0;s<=n-i-1;s++){
+      printf("    ");
+      }
+          for(int j=0;j<=i;j++)
+          {
+          printf("%s ",str);
+          }
+          printf("\n");
+      
+  }
+}
+```
 
  ## OUTPUT
-
+![alt text](image-1.png)
  
 
 ## RESULT
@@ -132,9 +209,27 @@ Step 5: Loop from i = 0 to i < n:
 Step 6: End the program.
 
 ## PROGRAM
+```
+#include <stdio.h>
 
+int main() {
+  int n;
+  scanf("%d",&n);
+  int a[n];
+  for(int i=0;i<n;i++)
+  {
+  scanf("%d",&a[i]);
+  }
+  int *p=a;
+  for(int i=0;i<n;i++)
+  {
+      printf("%d ",*p);
+      p++;
+  }
+}
+```
 ## OUTPUT
-
+![alt text](image-4.png)
  
 
 ## RESULT
