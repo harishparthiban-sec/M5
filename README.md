@@ -21,7 +21,8 @@ printf("%.0f",ceil(*p)+1);
 
 ```
 ## OUTPUT:
- ![alt text](image-3.png)
+ <img width="469" height="239" alt="image" src="https://github.com/user-attachments/assets/59240eff-2a2f-4e9f-b67d-513f7d685401" />
+
 
 
 
@@ -71,7 +72,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-![alt text](image.png) 		
+<img width="543" height="248" alt="image" src="https://github.com/user-attachments/assets/0809f1ee-d64f-4399-8a07-c8eb42bcf375" />
+	
 ## RESULT:
 
 Thus the program has been executed successfully.
@@ -128,7 +130,8 @@ int main() {
 
 
 ## OUTPUT
-![alt text](image-2.png)
+<img width="478" height="357" alt="image" src="https://github.com/user-attachments/assets/528f27dd-920d-4d0f-8e31-bd5dd97c641b" />
+
 
  
  
@@ -176,7 +179,8 @@ int main() {
 ```
 
  ## OUTPUT
-![alt text](image-1.png)
+<img width="592" height="366" alt="image" src="https://github.com/user-attachments/assets/3b9d58e2-8b88-42c6-8046-52fbd6362980" />
+
  
 
 ## RESULT
@@ -229,8 +233,8 @@ int main() {
 }
 ```
 ## OUTPUT
-![alt text](image-4.png)
- 
+<img width="551" height="298" alt="image" src="https://github.com/user-attachments/assets/46b67601-cbdb-4ff6-8db3-cca00f20f32d" />
+
 
 ## RESULT
 
